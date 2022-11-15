@@ -1,0 +1,36 @@
+{
+  "name": "api-users",
+  "version": "1.0.0",
+  "description": "API to save User Data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaPul/API-USERS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaPul/API-USERS/issues"
+  },
+  "homepage": "https://github.com/JoaPul/API-USERS#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "mongodb-memory-server": "^8.10.0",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.1"
+  }
+}
