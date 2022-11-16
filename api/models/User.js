@@ -17,8 +17,8 @@ const schema = new mongoose.Schema({
   email: { type: String, required: true },
   gender: { type: Boolean, default: true },
   password: { type: String, required: true },
-  wishList: [{ date: Date, place: String, capsule: String, price: Number },],
-  cart: [{ date: Date, place: String, capsule: String, price: Number },],
+  wishList: [{ date: Date, place: String, capsule: String, price: Number, quantity: Number, name: String, imgNum: Number },],
+  cart: [{ date: Date, place: String, capsule: String, price: Number, quantity: Number, name: String, imgNum: Number },],
 })
 
 export default mongoose.model('User', schema);

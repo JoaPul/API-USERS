@@ -14,6 +14,9 @@ const createUserSchema = joi.object({
       place: joi.string(),
       capsule: joi.string(),
       price: joi.number(),
+      quantity: joi.number(),
+      name: joi.string(),
+      imgNum: joi.number()
     })
   ),
   cart: joi.array().items(
